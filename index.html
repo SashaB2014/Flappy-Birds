@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyBirds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="flappy.js" defer></script>
+</head>
+<body>
+    <section class="description">        
+        <p>For play use ARROW UP</p>
+    </section>
+    <section class="wrapper">
+        <p id="score">SCORE: 0</p>
+        <p id="best_score">BEST SCORE: 0</p>
+    </section>
+    <br>
+    <section class="canvas">
+        <canvas id="canvas"></canvas>
+    </section>
+    <br>
+    <section class="control">
+        <input type="button" onclick="game_pause()" value="PAUSE" class="btn">
+    </section>
+</body>
+</html>
